@@ -9,10 +9,13 @@
  *
  */
 
-namespace denchotsanov;
+namespace denchotsanov\cms;
 
 
-class Module
+class Module extends \yii\base\Module
 {
+    public $aliases = 'denchotsanov\cms\controller';
+
+    public $defaultRoute = 'site';
 
 }
