@@ -12,7 +12,9 @@
 namespace denchotsanov\controller;
 
 
-class SiteController
+use yii\web\Controller;
+
+class SiteController extends Controller
 {
 
 }
